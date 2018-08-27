@@ -1,0 +1,47 @@
+# EDC.SpringCloud.Samples
+
+## SpringCloud
+[![N|SpringBoot](https://images2018.cnblogs.com/blog/381412/201808/381412-20180822202553841-1217264857.jpg)](https://start.spring.io/)
+
+首先，尽管Spring Cloud带有“Cloud”这个单词，但它并不是云计算解决方案，而是在Spring Boot基础之上构建的，用于快速构建分布式系统的通用模式的工具集。
+其次，使用Spring Cloud开发的应用程序非常适合在Docker和PaaS（比如Pivotal Cloud Foundry）上部署，所以又叫做云原生应用（Cloud Native Application）。云原生可以简单地理解为面向云环境的软件架构。
+总结，Spring Cloud是一个基于Spring Boot实现的云原生应用开发工具，它为基于JVM的云原生应用开发中涉及的配置管理、服务发现、熔断器、智能路由、微代理、控制总线、分布式会话和集群状态管理等操作提供了一种简单的开发方式。
+
+## 示例环境版本
+  - Java : JDK & JRE 1.8 8u151
+  - Spring Boot : 1.5.15.RELEASE
+  - Spring Cloud : Edgware.SR3
+
+## 示例简要说明
+  - 服务注册与发现（基于Eureka） : 
+  	XXXXXXX
+  - 客户端负载均衡（基于Ribbon） :
+    XXXXXXX
+  - 声明式REST调用（基于Feign） :
+    XXXXXXX
+  - 容错处理（基于Hystrix） :
+    XXXXXXX
+  - API网关（基于Zuul） :
+    XXXXXXX
+  - 统一配置管理（基于Spring Cloud Config） :
+    XXXXXXX
+  - 微服务跟踪（基于Spring Cloud Sleuth） :
+    XXXXXXX
+  - 使用Docker-Compose编排Spring Cloud微服务 :
+    XXXXXXX
+
+## 推荐学习资料
+备注：下面资料都是我们项目组新同事以及老同事（.Net技术背景）所采用的学习资料，并不保证适合于所有人。本示例主要也主要是基于下面的资料而写的sample code。
+> 程序猿DD SpringCloud基础教程（Dalston版本），Spring Cloud微服务实战：http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/<br/>
+> 周立 Spring Cloud与Docker微服务架构实战：https://book.douban.com/subject/30278673/<br/>
+> 纯洁的微笑 SpringCloud系列教程：http://www.ityouknow.com/spring-cloud
+
+## 推荐开发环境
+
+[![N|Intellij Idea](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533644040260&di=f5ef1cf27c43f744cc8fbac384bfd0e9&imgtype=0&src=http%3A%2F%2Fimage.bubuko.com%2Finfo%2F201808%2F20180801214347937731.png)](https://www.jetbrains.com/idea/)
+> Intellij Idea Community 2018版本<br/>
+`PS`: 如果是.Net程序猿想要学习SpringBoot，建议更改快捷键与Visual Studio保持一致，这样能加快开发效率
+
+[![N|Alibaba Code Guidelines](https://images2018.cnblogs.com/blog/381412/201808/381412-20180823162644740-346644119.jpg)](https://www.cnblogs.com/plokmju/p/7670481.html)
+> 阿里巴巴代码规约插件<br/>
+
