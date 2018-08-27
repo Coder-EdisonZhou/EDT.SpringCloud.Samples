@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: eureka-service-ha
+---
+spring:
+  # profile=peer1
+  profiles: peer1
+server:
+  port: 8761
+eureka:
+  instance:
+    # when profile=peer1, hostname=peer1
+    hostname: peer1
+  client:
+    service-url:
+      # register self to peer2
+      defaultZone: http://peer2:8762/eureka
+---
+spring:
+  # profile=peer2
+  profiles: peer2
+server:
+  port: 8762
+eureka:
+  instance:
+    # when profile=peer2, hostname=peer2
+    hostname: peer2
+  client:
+    service-url:
+      # register self to peer1
+      defaultZone: http://peer1:8761/eureka
