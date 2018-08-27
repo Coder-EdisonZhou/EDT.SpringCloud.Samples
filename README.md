@@ -17,7 +17,7 @@
 
 ## 示例简要说明
   - 服务注册与发现（基于Eureka） : 
-  	XXXXXXX
+  	part1_service-register-discovery
   - 客户端负载均衡（基于Ribbon） :
     XXXXXXX
   - 声明式REST调用（基于Feign） :
