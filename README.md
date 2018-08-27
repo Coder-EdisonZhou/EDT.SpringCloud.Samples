@@ -19,7 +19,7 @@
   - 服务注册与发现（基于Eureka） : 
   	part1_service-register-discovery
   - 客户端负载均衡（基于Ribbon） :
-    XXXXXXX
+    part2_client-load-balance
   - 声明式REST调用（基于Feign） :
     XXXXXXX
   - 容错处理（基于Hystrix） :
@@ -47,4 +47,8 @@
 
 [![N|Alibaba Code Guidelines](https://images2018.cnblogs.com/blog/381412/201808/381412-20180823162644740-346644119.jpg)](https://www.cnblogs.com/plokmju/p/7670481.html)
 > 阿里巴巴代码规约插件<br/>
+
+## 参考博文
+
+URL：https://www.cnblogs.com/edisonchou/p/java_spring_cloud_foundation_sample_list.html
 
