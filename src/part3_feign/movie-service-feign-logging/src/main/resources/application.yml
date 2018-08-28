@@ -1,0 +1,21 @@
+server:
+  port: 8010
+
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true # 优先注册IP地址而不是hostname
+  healthcheck:
+    enabled: true # 启用健康检查,注意:需要引用spring boot actuator
+
+spring:
+  application:
+    name: movie-service
+
+logging:
+  level:
+    # 将Feign接口的日志级别设置为DEBUG，因为Feign的Logger.Level只针对DEBUG做出响应
+    com.mbps.cd.movieservice.feign.UserFeignClient: DEBUG

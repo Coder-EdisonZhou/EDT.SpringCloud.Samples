@@ -21,7 +21,7 @@
   - 客户端负载均衡（基于Ribbon） :
     part2_client-load-balance
   - 声明式REST调用（基于Feign） :
-    XXXXXXX
+    part3_feign
   - 容错处理（基于Hystrix） :
     XXXXXXX
   - API网关（基于Zuul） :
