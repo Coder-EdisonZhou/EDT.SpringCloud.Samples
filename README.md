@@ -17,7 +17,7 @@
 
 ## 示例简要说明
   - 服务注册与发现（基于Eureka） : 
-  	[part1_service-register-discovery](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part1_service-register-discovery)
+      [part1_service-register-discovery](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part1_service-register-discovery)
   - 客户端负载均衡（基于Ribbon） :
     [part2_client-load-balance](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part2_client-load-balance)
   - 声明式REST调用（基于Feign） :
@@ -34,8 +34,9 @@
     XXXXXXX
 
 ## 推荐学习资料
-`PS`：下面资料都是我们项目组新同事以及老同事（.Net技术背景）所采用的学习资料，并不保证适合于所有人。本示例主要也主要是基于下面的资料而写的sample code。
-[![N|EBook1](https://images2018.cnblogs.com/blog/381412/201808/381412-20180822203530287-752031402.jpg)](https://start.spring.io/)
+`PS`：下面资料都是我们项目组新同事以及老同事（.Net技术背景）所采用的学习资料，并不保证适合于所有人。本示例主要也主要是基于下面的资料而写的sample code。<br/>
+<div style="text-align:center"><img src="https://images2018.cnblogs.com/blog/381412/201808/381412-20180822203530287-752031402.jpg" style="border: 1px solid #ddd; border-radius: 5px; width: 120px; heighe: 240px;" alt="Spring Cloud微服务实战"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://images2018.cnblogs.com/blog/381412/201808/381412-20180822203658690-695659411.jpg" style="border: 1px solid #ddd; border-radius: 5px; width: 120px; heighe: 240px;" alt="Spring Cloud与Docker微服务架构实战"/></div>
 > 程序猿DD SpringCloud基础教程（Dalston版本），Spring Cloud微服务实战：http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/<br/>
 > 周立 Spring Cloud与Docker微服务架构实战：https://book.douban.com/subject/30278673/<br/>
 > 纯洁的微笑 SpringCloud系列教程：http://www.ityouknow.com/spring-cloud
