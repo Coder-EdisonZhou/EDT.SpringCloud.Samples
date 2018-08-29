@@ -35,8 +35,8 @@
 
 ## 推荐学习资料
 `PS`：下面资料都是我们项目组新同事以及老同事（.Net技术背景）所采用的学习资料，并不保证适合于所有人。本示例主要也主要是基于下面的资料而写的sample code。<br/>
-<img src="https://images2018.cnblogs.com/blog/381412/201808/381412-20180822203530287-752031402.jpg" style="border: 1px solid #ddd; border-radius: 5px; width: 120px; height: 150px;" alt="Spring Cloud微服务实战"/>
-<img src="https://images2018.cnblogs.com/blog/381412/201808/381412-20180822203658690-695659411.jpg" style="border: 1px solid #ddd; border-radius: 5px; width: 120px; height: 150px;" alt="Spring Cloud与Docker微服务架构实战"/>
+<img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_eBook1.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="Spring Cloud微服务实战"/>
+<img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_eBook2.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="Spring Cloud与Docker微服务架构实战"/>
 > 程序猿DD SpringCloud基础教程（Dalston版本），Spring Cloud微服务实战：http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/<br/>
 > 周立 Spring Cloud与Docker微服务架构实战：https://book.douban.com/subject/30278673/<br/>
 > 纯洁的微笑 SpringCloud系列教程：http://www.ityouknow.com/spring-cloud
