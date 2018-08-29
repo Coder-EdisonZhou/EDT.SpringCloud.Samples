@@ -47,7 +47,7 @@
 > Intellij Idea Community 2018版本<br/>
 `PS`: 如果是.Net程序猿想要学习SpringBoot，建议更改快捷键与Visual Studio保持一致，这样能加快开发效率
 
-<img src="https://images2018.cnblogs.com/blog/381412/201808/381412-20180823162644740-346644119.jpg" style="border: 1px solid #ddd; border-radius: 5px; width: 470px; height: 240px;" alt="阿里巴巴代码规约"/>
+<img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_alibaba_plugin.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="阿里巴巴代码规约"/>
 > 阿里巴巴代码规约插件<br/>
 
 ## 参考博文
