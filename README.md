@@ -15,15 +15,15 @@
   - **Spring Boot** : 1.5.15.RELEASE
   - **Spring Cloud** : Edgware.SR3
 
-## 示例简要说明
+## 示例简要说明（持续更新中...）
   - 服务注册与发现（基于Eureka） : 
-      [part1_service-register-discovery](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part1_service-register-discovery)
+    [part1_service-register-discovery](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part1_service-register-discovery)
   - 客户端负载均衡（基于Ribbon） :
     [part2_client-load-balance](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part2_client-load-balance)
   - 声明式REST调用（基于Feign） :
     [part3_feign](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part3_feign)
   - 容错处理（基于Hystrix） :
-    XXXXXXX
+    [part4_hystrix](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part4_hystrix)
   - API网关（基于Zuul） :
     XXXXXXX
   - 统一配置管理（基于Spring Cloud Config） :
