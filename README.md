@@ -25,7 +25,7 @@
   - 容错处理（基于Hystrix） :
     [part4_hystrix](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part4_hystrix)
   - API网关（基于Zuul） :
-    XXXXXXX
+    [part5_zuul](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part5_zuul)
   - 统一配置管理（基于Spring Cloud Config） :
     XXXXXXX
   - 微服务跟踪（基于Spring Cloud Sleuth） :
@@ -45,7 +45,7 @@
 
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533644040260&di=f5ef1cf27c43f744cc8fbac384bfd0e9&imgtype=0&src=http%3A%2F%2Fimage.bubuko.com%2Finfo%2F201808%2F20180801214347937731.png" style="border: 1px solid #ddd; border-radius: 5px;" alt="Intellij Idea 2018"/>
 > Intellij Idea Community 2018版本<br/>
-`PS`: 如果是.Net程序猿想要学习SpringBoot，建议更改快捷键与Visual Studio保持一致，这样能加快开发效率
+`PS`：如果是.Net程序猿想要学习SpringBoot，建议更改快捷键与Visual Studio保持一致，这样能加快开发效率
 
 <img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_alibaba_plugin.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="阿里巴巴代码规约"/>
 > 阿里巴巴代码规约插件<br/>

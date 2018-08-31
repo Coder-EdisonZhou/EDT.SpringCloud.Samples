@@ -1,0 +1,19 @@
+server:
+  port: 8050
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true # 优先注册IP地址而不是hostname
+  healthcheck:
+      enabled: true # 启用健康检查,注意:需要引用spring boot actuator
+
+spring:
+  application:
+    name: file-upload-service
+  http:
+    multipart:
+      max-file-size: 2000Mb    # Max File Size，默认1MB
+      max-request-size: 2500Mb # Max Request Size，默认10MB
