@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+management:
+  security:
+    enabled: false
+
+spring:
+  application:
+    name: sampleservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          # 配置Git仓库地址
+          uri: https://github.com/EdisonChou/EDC.SpringCloud.Samples.Config
+          # Git仓库账号（如果需要认证）
+          username:
+          # Git仓库密码（如果需要认证）
+          password:
+    bus:
+      trace:
+        enabled: true # 开启cloud bus跟踪
+  rabbitmq:
+    host: 10.248.37.171
+    port: 5672
+    username: admin
+    password: manulife

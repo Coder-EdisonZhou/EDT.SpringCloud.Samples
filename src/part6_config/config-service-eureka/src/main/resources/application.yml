@@ -1,0 +1,40 @@
+server:
+  port: 8080
+
+management:
+  security:
+    enabled: false
+
+spring:
+  application:
+    name: sampleservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          # 配置Git仓库地址
+          uri: https://github.com/EdisonChou/EDC.SpringCloud.Samples.Config
+          # Git仓库账号（如果需要认证）
+          username:
+          # Git仓库密码（如果需要认证）
+          password:
+    bus:
+      trace:
+        enabled: true # 开启cloud bus跟踪
+  rabbitmq:
+    host: 10.248.37.171
+    port: 5672
+    username: admin
+    password: manulife
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.248.63.192:8761/eureka/
+
+#security:
+#  basic:
+#    enabled: true       # 开启基于 HTTP Basic 的认证
+#  user:
+#    name: user          # 配置登录的账号是 user
+#    password: 5757124   # 配置登录的密码是 5757124

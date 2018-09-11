@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: sampleservice-foo
+  cloud:
+    config:
+      # config server的地址
+      uri: http://10.248.63.192:8080/
+      # profile对应config server所获取的配置文件中的{profile}
+      profile: dev
+      # 指定Git仓库的分支，对应config server所获取的配置文件的{label}
+      label: master
+  rabbitmq:
+    host: 10.248.37.171
+    port: 5672
+    username: admin
+    password: manulife
