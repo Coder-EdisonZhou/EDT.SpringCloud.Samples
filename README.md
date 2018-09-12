@@ -2,6 +2,7 @@
 
 ## 温馨提示
 本示例基于Spring Boot 1.5.x实现，如对Spring Boot不熟悉，可以先学习我的这一篇：《[Spring Boot 1.5.x 基础学习示例](https://www.cnblogs.com/edisonchou/p/java_spring_boot_foundation_demos.html)》。关于微服务基本概念不了解的童鞋，可以先阅读下始祖Martin Fowler的《[Microservice](https://mp.weixin.qq.com/s/fzk-kENu0I22P3F2Vu7KBA)》，本文不做介绍和描述。
+本示例配套介绍博文请[点击这里](https://www.cnblogs.com/edisonchou/p/java_spring_cloud_foundation_sample_list.html)。
 
 ## Spring Cloud
 <img src="https://images2018.cnblogs.com/blog/381412/201808/381412-20180822202553841-1217264857.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="Spring Cloud微服务实战"/>
@@ -13,7 +14,7 @@
 ## 示例环境版本
   - **Java** : JDK & JRE 1.8 8u151
   - **Spring Boot** : 1.5.15.RELEASE
-  - **Spring Cloud** : Edgware.SR3
+  - **Spring Cloud** : Edgware.SR3 （`PS`：Spring Cloud的版本命名是以伦敦地铁站的名字来命名的）
 
 ## 示例简要说明（持续更新中...）
   - 服务注册与发现（基于Eureka） : 
@@ -29,22 +30,21 @@
   - 统一配置管理（基于Spring Cloud Config） :
     [part6_config](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part6_config)
   - 微服务跟踪（基于Spring Cloud Sleuth） :
-    XXXXXXX
-  - 使用Docker-Compose编排Spring Cloud微服务 :
-    XXXXXXX
+    [part7_sleuth](https://github.com/EdisonChou/EDC.SpringCloud.Samples/tree/master/src/part7_sleuth)
 
 ## 推荐学习资料
 `PS`：下面资料都是我们项目组新同事以及老同事（.Net技术背景）所采用的学习资料，并不保证适合于所有人。本示例主要也主要是基于下面的资料而写的sample code。<br/>
-<img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_eBook1.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="Spring Cloud微服务实战"/>
 <img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_eBook2.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="Spring Cloud与Docker微服务架构实战"/>
-> 程序猿DD SpringCloud基础教程（Dalston版本），Spring Cloud微服务实战：http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/<br/>
+<img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_eBook1.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="Spring Cloud微服务实战"/>
+
 > 周立 Spring Cloud与Docker微服务架构实战：https://book.douban.com/subject/30278673/<br/>
+> 程序猿DD SpringCloud基础教程（Dalston版本），Spring Cloud微服务实战：http://blog.didispace.com/Spring-Cloud%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/<br/>
 > 纯洁的微笑 SpringCloud系列教程：http://www.ityouknow.com/spring-cloud
 
 ## 推荐开发环境
 
 <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533644040260&di=f5ef1cf27c43f744cc8fbac384bfd0e9&imgtype=0&src=http%3A%2F%2Fimage.bubuko.com%2Finfo%2F201808%2F20180801214347937731.png" style="border: 1px solid #ddd; border-radius: 5px;" alt="Intellij Idea 2018"/>
-> Intellij Idea Community 2018版本
+> Intellij Idea Community 2018版本<br/>
 `PS`：如果是.Net程序猿想要学习SpringBoot，建议更改快捷键与Visual Studio保持一致，这样能加快开发效率
 
 <img src="https://www.cnblogs.com/images/cnblogs_com/edisonchou/1288702/o_alibaba_plugin.jpg" style="border: 1px solid #ddd; border-radius: 5px;" alt="阿里巴巴代码规约"/>
