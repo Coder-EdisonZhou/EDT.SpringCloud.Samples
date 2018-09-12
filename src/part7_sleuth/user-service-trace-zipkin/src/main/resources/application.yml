@@ -1,0 +1,36 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: user-service
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:db/schema.sql
+    data: classpath:db/data.sql
+    username: sa
+    url: jdbc:h2:mem:test
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+      settings:
+        web-allow-others: true
+  zipkin:
+    # 指定zipkin server的地址
+    base-url: http://10.248.63.192:9411
+  sleuth:
+    sampler:
+      # 指定需采样的请求的百分比，默认是0.1（即10%），这里方便查看设为100%（实际环境不要这样设置）
+      percentage: 1.0
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG

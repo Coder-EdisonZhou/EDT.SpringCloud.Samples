@@ -1,0 +1,21 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: movie-service
+  zipkin:
+    # 指定zipkin server的地址
+    base-url: http://10.248.63.192:9411
+  sleuth:
+    sampler:
+      # 指定需采样的请求的百分比，默认是0.1（即10%），这里方便查看设为100%（实际环境不要这样设置）
+      percentage: 1.0
+
+userservice:
+  url: http://10.248.63.192:8000/
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG

@@ -1,0 +1,29 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: user-service
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
+    schema: classpath:db/schema.sql
+    data: classpath:db/data.sql
+    username: sa
+    url: jdbc:h2:mem:test
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+      settings:
+        web-allow-others: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG

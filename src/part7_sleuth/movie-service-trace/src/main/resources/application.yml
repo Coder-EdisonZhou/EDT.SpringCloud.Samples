@@ -1,0 +1,14 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: movie-service
+
+userservice:
+  url: http://10.248.63.192:8000/
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
