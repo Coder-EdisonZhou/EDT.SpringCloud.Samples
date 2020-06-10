@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       # config server的地址
-      uri: http://10.248.63.192:8080/
+      uri: http://192.168.63.192:8080/
       # config server的安全认证（下面演示的是是基于HTTP Basic的方式）
       #username: user
       #password: 5757124
@@ -16,12 +16,12 @@ spring:
         enabled: true                            # 表示使用服务发现组件中的Config Server，而不自己指定Config Server的uri，默认false
         service-id: sampleservice-config-server  # 指定Config Server在服务发现中的serviceId，默认是configserver
   rabbitmq:
-    host: 10.248.37.171
+    host: 192.168.37.171
     port: 5672
     username: admin
-    password: manulife
+    password: xilife
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.248.63.192:8761/eureka/
+      defaultZone: http://192.168.63.192:8761/eureka/

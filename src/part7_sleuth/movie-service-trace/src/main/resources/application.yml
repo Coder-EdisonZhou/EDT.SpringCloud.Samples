@@ -6,7 +6,7 @@ spring:
     name: movie-service
 
 userservice:
-  url: http://10.248.63.192:8000/
+  url: http://192.168.63.192:8000/
 
 logging:
   level:

@@ -5,9 +5,9 @@ spring:
   application:
     name: zipkin-service
   rabbitmq:
-    host: 10.248.37.171
+    host: 192.168.37.171
     port: 5672
     username: admin
-    password: manulife
-    virtual-host: MBPSCD
+    password: xilife
+    virtual-host: xdpitc
     queue: zipkin

@@ -15,7 +15,7 @@ public class ConfigClientApplication {
 
 	// 由于公司网络限制，需要设置HTTP代理才能访问互联网
 	public static void setHttpProxy(){
-		String proxyHost = "10.248.36.";
+		String proxyHost = "192.168.36.";
 		String proxyPort = "3266";
 
 		System.setProperty("http.proxyHost", proxyHost);
@@ -24,7 +24,7 @@ public class ConfigClientApplication {
 
 	// 由于公司网络限制，需要设置HTTPS代理才能从GitHub上Clone
 	public static void setHttpsProxy(){
-		String proxyHost = "10.248.60.204";
+		String proxyHost = "192.168.60.204";
 		String proxyPort = "3266";
 
 		System.setProperty("https.proxyHost", proxyHost);

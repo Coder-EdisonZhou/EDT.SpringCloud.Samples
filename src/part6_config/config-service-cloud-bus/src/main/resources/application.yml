@@ -22,7 +22,7 @@ spring:
       trace:
         enabled: true # 开启cloud bus跟踪
   rabbitmq:
-    host: 10.248.37.171
+    host: 192.168.37.171
     port: 5672
     username: admin
-    password: manulife
+    password: xilife

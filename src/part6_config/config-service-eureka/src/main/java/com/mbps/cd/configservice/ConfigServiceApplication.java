@@ -23,7 +23,7 @@ public class ConfigServiceApplication {
 
 	// 由于公司网络限制，需要设置HTTP代理才能访问互联网
 	public static void setHttpProxy(){
-		String proxyHost = "10.248.36.";
+		String proxyHost = "192.168.36.";
 		String proxyPort = "3266";
 
 		System.setProperty("http.proxyHost", proxyHost);
